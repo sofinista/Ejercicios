@@ -7,7 +7,6 @@ public class calificacion {
         String calificacion3 = JOptionPane.showInputDialog("Ingrese la tercer calificación: ");
         String examenFinal = JOptionPane.showInputDialog("Ingrese la calificación del examen final: ");
         String trabajoFinal = JOptionPane.showInputDialog("Ingrese la calificación de el trabajo final: ");
-
         Double promedio = ((((Double.parseDouble(calificacion1)) + (Double.parseDouble(calificacion2)) + (Double.parseDouble(calificacion3)))/3)*0.55);
         Double examenFin = ((Double.parseDouble(examenFinal))*0.30);
         Double trabajoFin = (Double.parseDouble((trabajoFinal))*0.15);
